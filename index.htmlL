@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="">
+    <title>Rezume</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img class="img__ruchka" src="/img/ruchka.png" alt="ruchka.png" />
+      <img class="img__coffee" src="/img/coffee.png" alt="coffee.png" />
+      <img class="img__listva" src="/img/listva.png" alt="coffee.png" />
+    </div>
+    <div class="conteiner__a4">
+      <!-- side__bar
+        ################################# -->
+      <div class="side__bar">
+        
+
+        <div class="box__sidebar">
+          <div class="box__yellow"></div>
+          <img class="foto" src="/img/foto1.png" alt="" />
+        </div>
+
+        <section class="box__sidebar">
+          <div class="txt_rg yell">Контакты:</div>
+          <img class="sb__line" src="/img/line1.png" alt="line1.png" />
+          <div class="box__tel">
+            <p class="tel">+7 (967) 310 20 55</p>
+            <img class="icon" src="/img/telefon.png" alt="telefon.png" />
+          </div>
+          <div class="box__mail">
+            <p class="mail">www.semen@list.ru</p>
+            <img class="icon" src="/img/mail.png" alt="mail.png" />
+          </div>
+        </section>
+        <section class="box__sidebar gray">
+          <div class="ed__header">
+            <p class="txt__ed">Образование:</p>
+          </div>
+          <div class="ed__inner">
+            <p class="p__ed__txt">
+              <span class="txt__educ">Институт:</span> ЮРГТУ, Южно-Российский
+              государственный технический университет.
+            </p>
+            <p class="p__ed__txt">
+              <span class="txt__educ">Специальность:</span> Вычислительные
+              машины, комплексы, системы и сети.
+            </p>
+            <p>
+              <span class="txt__educ">Факультет:</span> Информационных
+              технологий и управления.
+            </p>
+          </div>
+        </section>
+        <section class="box__sidebar">
+          <div class="txt_rg yell bold">Проф. навыки:</div>
+          <img class="sb__line" src="/img/line1.png" alt="" />
+          <div class="skills">
+            <p>
+              Настройка ПК | Сборка ПК | Ремонт ПК | Офисная техника | Сетевое
+              оборудование | Администрирование | Настройка ПО | OS Windows |
+              Linux | HTML5 | CSS3 | CoralDrawX8 | AdobePhotoshop | Figma
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- content
+        ################################# -->
+
+      <div class="content">
+        <div class="box__h1">
+          <h1 class="h1__content">SEMEN KAZACHENKO</h1>
+        </div>
+        <div class="box__h2">
+          <h2 class="h2__content yell">Junior разработчик</h2>
+        </div>
+        <div class="box_con_yellow">
+          <p class="txt__qua">
+            <span class="bold">Мои качества:</span> Быстрая обучаемость,
+            многозадачность, коммуникабельность и активная жизненная позиция.
+          </p>
+        </div>
+
+        <!-- experience
+        ################################# -->
+        <div class="work">
+          <div class="ex__work">
+            <span>Опыт работы:</span>
+          </div>
+          <div class="date">
+            <button class="btn_data btn1">
+              <span> 12_2019 - 03_2020 </span>
+              <span class="dt__white">| 4 месяца |</span>
+            </button>
+            <div class="number">9</div>
+
+            <button class="btn_data btn2">
+              10_2015 - 03_2020
+              <p class="dt__white">| 4 года 6 месяцев |</p>
+            </button>
+            <div class="number">8</div>
+
+            <button class="btn_data btn3">
+              09_2014 - 10_2015
+              <p class="dt__white">| 1 год 2 месяца |</p>
+            </button>
+            <div class="number">7</div>
+
+            <button class="btn_data btn4">
+              02_2013 - 08_2014
+              <p class="dt__white">| 1 год 7 месяцев |</p>
+            </button>
+            <div class="number">6</div>
+
+            <button class="btn_data btn5">
+              03_2010 - 02_2013
+              <p class="dt__white">| 3 года |</p>
+            </button>
+            <div class="number">5</div>
+
+            <button class="btn_data btn6">
+              11_2009 - 03_2010
+              <p class="dt__white">| 5 месяцев |</p>
+            </button>
+            <div class="number">4</div>
+
+            <button class="btn_data btn7">
+              03_2009 - 06_2009
+              <p class="dt__white">| 4 месяца |</p>
+            </button>
+            <div class="number">3</div>
+
+            <button class="btn_data btn8">
+              11_2007 - 11_2008
+              <p class="dt__white">| 1 год 1 месяц |</p>
+            </button>
+            <div class="number">2</div>
+
+            <button type="button"  class="btn_data btn9" >
+              05_2005 - 10_2007
+              <p class=" dt__white">| 2 года 6 месяцев |</p>
+            </button>
+            <div class="number">1</div>
+
+          </div>
+        </div>
+
+          <div class="intro none">
+            <div class="intro1 none ">
+              <h3>Строительная организация</h3>
+              <h3>Системный администратор:</h3>
+              <ul>
+                <li>Техническое обслуживание компьютеров;</li>
+                <li>
+                  Устранение проблем, модернизация компьютерного оборудования;
+                </li>
+                <li>
+                  Установка, настройка и обновление программного обеспечения;
+                </li>
+                <li>
+                  Поддержка работоспособности и обслуживание сервера и сетевого
+                  оборудования;
+                </li>
+              </ul>
+            </div>
+            <div class="intro2 none">
+              <h3>AUTOIX (Свой бизнес)</h3>
+              <h3>Автосалон по продаже авто</h3>
+              <h4>Продажа поддержанных авто:</h4>
+              <ul>
+                <li>Анализ рынка;</li>
+                <li>Оценка авто;</li>
+                <li>Ведение переговоров;</li>
+                <li>Документальное сопровождение;</li>
+                <li>Подготовка авто к продаже;</li>
+                <li>Продажа Авто с полным сопровождением и оформлением;</li>
+              </ul>
+            </div>
+            <div class="intro3 none">
+              <h3>ИП Казаченко С.А., Магазин детских товаров</h3>
+              <span class="i"
+                >Сентябрь 2014 - Октябрь 2015 | 1 год 2 месяца</span
+              >
+              <h4>Свой бизнес</h4>
+              <ul>
+                <li>
+                  Полное сопровождение небольшого магазина детских товаров;
+                </li>
+                <li>Закупка нового товара;</li>
+                <li>Поиск новых поставщиков и клиентов;</li>
+                <li>Рекламное сопровождение;</li>
+              </ul>
+            </div>
+            <div class="intro4 none">
+              <h3>ИП Казаченко С.А., Консалтинговая компания "Эстейт"</h3>
+              <span class="i"
+                >Февраль 2013 - Август 2014 | 1 год 7 месяцев</span
+              >
+              <h4>Свой бизнес</h4>
+              <ul>
+                <li>Организация работы офиса;</li>
+                <li>Ведение внутреннего документооборота;</li>
+                <li>Оформление договоров;</li>
+                <li>Ведение базы данных объектов недвижимости;</li>
+                <li>Поиск сотрудников;</li>
+                <li>Сопровождение нового сотрудника во время стажировки;</li>
+                <li>Рекламное сопровождение офиса (интернет, СМИ);</li>
+                <li>Ведение отчетности и обработка данных статистики</li>
+              </ul>
+            </div>
+            <div class="intro5 none">
+              <h3>ООО "ИЦ Консультант"</h3>
+              <span class="i">Март 2010 - Февраль 2013 | 3 года</span>
+              <h4>Специалист по техническому обеспечению</h4>
+              <ul>
+                <li>
+                  Поддержка работоспособности и обслуживание компьютеров,
+                  серверов и сетевого оборудования;
+                </li>
+                <li>
+                  Установка, настройка и обновление программного обеспечения;
+                </li>
+                <li>
+                  Техническое обслуживание компьютеров (системных блоков),
+                  устранение проблем, модернизация компьютерного оборудования;
+                </li>
+                <li>Проведение антивирусной диагностики, удаление вирусов;</li>
+                <li>Оптимизация работы компьютеров;</li>
+                <li>
+                  Настройка и обслуживание периферийного и сетевого
+                  оборудования, координация работ по устранению возникающих
+                  неисправностей;
+                </li>
+                <li>
+                  Организация закупок и настройка необходимого оборудования,
+                  комплектующих и расходных материалов, программного
+                  обеспечения;
+                </li>
+                <li>Настройка и проверка резервного копирования данных</li>
+              </ul>
+            </div>
+            <div class="intro6 none">
+              <h3>
+                ВЗФЭИ, Всероссийский заочный финансово-экономический институт
+              </h3>
+              <span class="i">Ноябрь 2009 - Март 2010 | 5 месяцев</span>
+              <h4>Программист</h4>
+              <ul>
+                <li>
+                  Техническое обслуживание компьютеров (системных блоков),   
+                  устранение проблем, модернизация компьютерного оборудования;
+                </li>
+                <li>
+                  Установка, настройка и обновление программного обеспечения;
+                </li>
+                <li>
+                  Поддержка работоспособности и обслуживание сервера и сетевого
+                  оборудования;
+                </li>
+                <li>Проведение антивирусной диагностики , удаление вирусов;</li>
+                <li>
+                  Организация коллективного контроля доступа в сеть Интернет;
+                </li>
+              </ul>
+            </div>
+            <div class="intro7 none">
+              <h3>Связной (Салон сотовой связи)</h3>
+              <span class="i">Март 2009 — Июнь 2009 | 4 месяца</span>
+              <h4>
+                Менеджер по продажам мобильной, аудио, видео и фототехники
+              </h4>
+              <ul>
+                <li>
+                  Консультация клиентов и продажа    мобильной, аудио, видео и
+                  фототехники;
+                </li>
+                <li>
+                  Продажа контракта операторов сотовой связи и дополнительных
+                  услуг;
+                </li>
+                <li>Работа с кассой и ведение документации салона;</li>
+              </ul>
+            </div>
+            <div class="intro8 none">
+              <h3>Служба в Армии ВМФ РФ</h3>
+              <span class="i">Ноябрь 2007 - Ноябрь 2008 | 1 год 1 месяц</span>
+              <h4>Старший матрос (системный администратор)</h4>
+              <ul>
+                <li>Работа с электронной документацией;</li>
+                <li>
+                  Работа с ОС Windows, Linux “Ubuntu”,    MS Office (Word‚
+                  Excel);
+                </li>
+              </ul>
+            </div>
+            <div class="intro9 none">
+              <h3>МУП "Жилремонт"</h3>
+              <span class="i">Май 2005 - Октябрь 2007 | 2 года 6 месяцев</span>
+              <h4>Системный администратор</h4>
+              <ul>
+                <li>Сопровождение 1C v 7.7;</li>
+                <li>
+                  Настройка и обеспечение работы более 20 ПК и офисной
+                  оргтехники;
+                </li>
+                <li>
+                  Установка, настройка и восстановление операционной системы;
+                </li>
+                <li>
+                  Настройка доступа в интернет, настройка беспроводных сетей и
+                  ЛВС (витая пара);
+                </li>
+                <li>
+                  Сборка ПК, диагностика неисправностей ПК, установка и замена
+                  комплектующих;
+                </li>
+                <li>
+                  Удаление вредоносного программного обеспечения на ПК
+                  пользователей;
+                </li>
+                <li>
+                  Работа с ОС Windows, Linux “Ubuntu”, MS Office (Word‚ Excel);
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/jquery.js"></script>
+  </body>
+</html>
